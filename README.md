@@ -1,5 +1,8 @@
 # TransLoc
 
+This are the codes accompanyng the paper "Practical computation of the charge mobility in molecular semiconductors using transient localization theory".
+In order to compile the codes you need a fortran compiler installed (e..g. gfortran) as well as lapack and blas linear algebra routines.
+
 Compile the code
 ----------------
 to compile edit the 'Makefile' 
