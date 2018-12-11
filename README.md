@@ -1,6 +1,11 @@
 # TransLoc
+authors: S. Ciuchi, N. A. Tahereh and A. Troisi
+
 This are the codes accompanying the paper "Practical computation of the charge mobility in molecular semiconductors using transient localization theory".
 In order to compile the codes you need a fortran compiler installed (e..g. gfortran) as well as lapack and blas linear algebra routines.
+This code uses the randgen routines from Richard Chandler and Paul Northrop
+
+http://www.ucl.ac.uk/~ucakarc/work/software/randgen.txt
 
 Download the package
 --------------------
