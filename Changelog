@@ -3,7 +3,7 @@
 #  EXDIAG + RTA 2d lattices
 #
 #  authors: S. Ciuchi, N. A. Tahereh and A. Troisi
-#  latest stable version: v0.3
+#  latest stable version: v0.4
 #  randgen routines from Richard Chandler and Paul Northrop
 #  http://www.ucl.ac.uk/~ucakarc/work/software/randgen.txt
 #
@@ -14,4 +14,4 @@ Thu Jul 19 2018 v0.0 creation from 2DLLRTA_v1.2
 Fri Jul 20 2018 v0.1 random number generator - Package name changed into RTAED
 Wed Jul 25 2018 v0.2 Energy histograms
 Thu Dec  6 2018 v0.3 Published version fork renamed to TransLoc
-Tue Dec 11 2018 v0.4 
+Tue Dec 11 2018 v0.4 Makefile
