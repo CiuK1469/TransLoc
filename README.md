@@ -1,11 +1,17 @@
 # TransLoc
-
-This are the codes accompanyng the paper "Practical computation of the charge mobility in molecular semiconductors using transient localization theory".
+This are the codes accompanying the paper "Practical computation of the charge mobility in molecular semiconductors using transient localization theory".
 In order to compile the codes you need a fortran compiler installed (e..g. gfortran) as well as lapack and blas linear algebra routines.
+
+Download the package
+--------------------
+Download the package `TransLoc_vx.x.tgz` packed for download as a tar.gz format, 
+that is a standard format in the Unix/Linux world. You will need `tar` utility to unpack.
+Unpackaging the sources will create a directory named `TransLoc_vx.x/` go to that directory to compile the codes.
 
 Compile the code
 ----------------
-to compile edit the 'Makefile' 
+To compile the codes you will need the `make` utility.
+Edit the `Makefile` 
 
 - select the appropriate compiler (ifort / gfortran) default `FC = gfortran`
 - where is Lapack? default  `LIBLAPACK = /usr/lib/`
