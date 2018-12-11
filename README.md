@@ -8,7 +8,7 @@ to compile edit the 'Makefile'
 - where is Lapack? default  `LIBLAPACK = /usr/lib/`
 - executable's directory, default `INSTALLDIR = ./`
 - `make rebuild`
-- run the program `INSTALLDIR /L2.x`
+- run the program `./INSTALLDIR/L2.x`
 
 Parameters files
 ----------------
@@ -21,11 +21,11 @@ the parameters are that of the isotropic case reported in the paper (theta=theta
 
 DeltaJ/J=0.5
 
-T = 290[K] = 24.9900278474792[meV]
+T = 24.9900278474792[meV] = 290[K]
 
-J = 100[meV] = 1160.46289251836[K]
+J = 100[meV] = 1160.46[K]
 
-inverse_tau = 5[meV] = 58.0231446259179[K]
+inverse_tau = 5[meV] = 58.0[K]
 
 Output files
 ------------
