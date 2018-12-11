@@ -1,5 +1,6 @@
 # TransLoc
 authors: S. Ciuchi, N. A. Tahereh and A. Troisi
+e-mail: sergio.ciuchi@aquila.infn.it
 
 This are the codes accompanying the paper "Practical computation of the charge mobility in molecular semiconductors using transient localization theory".
 In order to compile the codes you need a fortran compiler installed (e..g. gfortran) as well as lapack and blas linear algebra routines.
