@@ -2,21 +2,20 @@
 authors: S. Ciuchi, N. A. Tahereh and A. Troisi
 e-mail: sergio.ciuchi@aquila.infn.it
 
-This are the codes accompanying the paper "Practical computation of the charge mobility in molecular semiconductors using transient localization theory".
-In order to compile the codes you need a fortran compiler installed (e..g. gfortran) as well as lapack and blas linear algebra routines.
+This is the code accompanying the paper "Practical computation of the charge mobility in molecular semiconductors using transient localization theory".
+In order to compile the code you need a fortran compiler installed (e.g. gfortran) as well as lapack and blas linear algebra routines.
 This code uses the randgen routines from Richard Chandler and Paul Northrop
 
 http://www.ucl.ac.uk/~ucakarc/work/software/randgen.txt
 
 Download the package
 --------------------
-Download the package `TransLoc_vx.x.tgz` packed for download as a tar.gz format, 
-that is a standard format in the Unix/Linux world. You will need `tar` utility to unpack.
-Unpackaging the sources will create a directory named `TransLoc_vx.x/` go to that directory to compile the codes.
+Download the package `TransLoc_vx.x.tgz` packed for download as a tar.gz format. You will need `tar` utility to unpack.
+Unpackaging the sources will create a directory named `TransLoc_vx.x/` go to that directory to compile the code.
 
 Compile the code
 ----------------
-To compile the codes you will need the `make` utility.
+To compile the code you will need the `make` utility.
 Edit the `Makefile` 
 
 - select the appropriate compiler (ifort / gfortran) default `FC = gfortran`
