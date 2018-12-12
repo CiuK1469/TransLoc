@@ -11,7 +11,7 @@ http://www.ucl.ac.uk/~ucakarc/work/software/randgen.txt
 Download the package
 --------------------
 Download the package `TransLoc_vx.x.tgz` packed for download as a tar.gz format. You will need `tar` utility to unpack.
-Unpackaging the sources will create a directory named `TransLoc_vx.x/` go to that directory to compile the code.
+Unpacking the sources will create a directory named `TransLoc_vx.x/` go to that directory to compile the code.
 
 Compile the code
 ----------------
