@@ -44,4 +44,4 @@ inverse_tau = 5[meV] = 58.0[K]
 Output files
 ------------
 
-`L2RTA.dat` contains the transient localization length along x and along y
+`L2RTA.dat` contains the square of the transient localization length along x and along y. Length units are specified in `Lattice.inp`.
