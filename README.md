@@ -16,19 +16,19 @@ Unpacking the sources will create a directory named `TransLoc_vx.x/` go to that 
 Compile the code
 ----------------
 To compile the code you will need the `make` utility.
-Edit the `Makefile` 
+Edit the `Makefile`
 
 - select the appropriate compiler (ifort / gfortran) default `FC = gfortran`
 - where is Lapack? default  `LIBLAPACK = /usr/lib/`
 - executable's directory, default `INSTALLDIR = ./`
 - `make rebuild`
-- run the program `./INSTALLDIR/L2.x`
+- run the program by typing on terminal shell `./INSTALLDIR/L2.x` or using `make` utility by typing `make test`
 
 Parameters files
 ----------------
 
 `Lattice.inp` : lattice parameters as well as the size of the supercell
- 
+
 `Params.inp` : hopping averages (J) and fluctuations (DeltaJ), Temperature and inverse of tau_in
 
 the parameters are that of the isotropic case reported in the paper (theta=theta_0=0.955):
@@ -44,4 +44,4 @@ inverse_tau = 5[meV] = 58.0[K]
 Output files
 ------------
 
-`L2RTA.dat` contains the square of the transient localization length along x and along y. Length units are specified in `Lattice.inp`.
+`L2RTA.dat` contains the averaged square of the transient localization length along x and along y. Length units are specified in `Lattice.inp`.

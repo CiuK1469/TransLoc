@@ -1,13 +1,16 @@
 ######################################################################
 #
-#  EXDIAG + RTA 2d lattices
+#  Transient Localization mobility calculations
+#  using exact diagonalization  
 #
 #  authors: S. Ciuchi, N. A. Tahereh and A. Troisi
-#  latest stable version: v0.5
+#  latest stable version: v0.6
 #  randgen routines from Richard Chandler and Paul Northrop
 #  http://www.ucl.ac.uk/~ucakarc/work/software/randgen.txt
 #
-#  ref:
+#  ref: Tahereh Nematiaram, Sergio Ciuchi, Xiaoyu Xie, Simone Fratini, Alessandro Troisi \\
+#	"Practical Computation of the Charge Mobility in Molecular Semiconductors Using Transient Localization Theory" \\
+#	to be published in Journal of Physical Chemistry C
 #
 ######################################################################
 Thu Jul 19 2018 v0.0 creation from 2DLLRTA_v1.2
@@ -16,3 +19,4 @@ Wed Jul 25 2018 v0.2 Energy histograms
 Thu Dec  6 2018 v0.3 Published version fork renamed to TransLoc
 Tue Dec 11 2018 v0.4 Makefile
 Thu Jan 24 2019 v0.5 bug in vector dimension fixed
+Mon Feb 25 2019 v0.6 quenched averages implemented
